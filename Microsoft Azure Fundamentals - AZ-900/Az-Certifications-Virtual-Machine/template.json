@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_Az_Certifications_Virtual_Machine_name": {
+            "defaultValue": "Az-Certifications-Virtual-Machine",
+            "type": "String"
+        },
+        "disks_Az_Certifications_Virtual_Machine_disk1_2d9d0b7ac9c944a09918f14123c7e596_externalid": {
+            "defaultValue": "/subscriptions/e74a549e-7a67-475e-a468-46572be5a07b/resourceGroups/Az-Certifications-Resource-Group/providers/Microsoft.Compute/disks/Az-Certifications-Virtual-Machine_disk1_2d9d0b7ac9c944a09918f14123c7e596",
+            "type": "String"
+        },
+        "networkInterfaces_az_certifications841_externalid": {
+            "defaultValue": "/subscriptions/e74a549e-7a67-475e-a468-46572be5a07b/resourceGroups/Az-Certifications-Resource-Group/providers/Microsoft.Network/networkInterfaces/az-certifications841",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('virtualMachines_Az_Certifications_Virtual_Machine_name')]",
+            "location": "eastus2",
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "Standard_B1s"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "MicrosoftWindowsServer",
+                        "offer": "WindowsServer",
+                        "sku": "2019-datacenter-gensecond",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Windows",
+                        "name": "[concat(parameters('virtualMachines_Az_Certifications_Virtual_Machine_name'), '_disk1_2d9d0b7ac9c944a09918f14123c7e596')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "id": "[parameters('disks_Az_Certifications_Virtual_Machine_disk1_2d9d0b7ac9c944a09918f14123c7e596_externalid')]"
+                        },
+                        "deleteOption": "Delete"
+                    },
+                    "dataDisks": []
+                },
+                "osProfile": {
+                    "computerName": "Az-Certificatio",
+                    "adminUsername": "amit_az_900_win1",
+                    "windowsConfiguration": {
+                        "provisionVMAgent": true,
+                        "enableAutomaticUpdates": true,
+                        "patchSettings": {
+                            "patchMode": "AutomaticByOS",
+                            "assessmentMode": "ImageDefault",
+                            "enableHotpatching": false
+                        }
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true,
+                    "requireGuestProvisionSignal": true
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[parameters('networkInterfaces_az_certifications841_externalid')]",
+                            "properties": {
+                                "deleteOption": "Delete"
+                            }
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true
+                    }
+                }
+            }
+        }
+    ]
+}

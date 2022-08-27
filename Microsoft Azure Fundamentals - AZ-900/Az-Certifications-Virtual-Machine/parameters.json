@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_Az_Certifications_Virtual_Machine_name": {
+            "value": null
+        },
+        "disks_Az_Certifications_Virtual_Machine_disk1_2d9d0b7ac9c944a09918f14123c7e596_externalid": {
+            "value": null
+        },
+        "networkInterfaces_az_certifications841_externalid": {
+            "value": null
+        }
+    }
+}
