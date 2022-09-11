@@ -11,7 +11,7 @@ This repository has resources for Azure Certifications, Architecture, and genera
 ## Topics <a name="topic"></a>
 * Certifications
   * [Exam AZ-900: Microsoft Azure Fundamentals](https://github.com/amitdole/microsoftazurecertification/blob/main/Microsoft%20Azure%20Fundamentals%20-%20AZ-900/az-900.md)
-  * [Exam AZ-204: Developing Solutions for Microsoft Azure]
+  * [Exam AZ-204: Developing Solutions for Microsoft Azure]([https://github.com/amitdole/microsoftazurecertification/tree/main/Microsoft%20Azure%20Fundamentals%20-%20AZ-204](https://github.com/amitdole/microsoftazurecertification/blob/main/Microsoft%20Azure%20Fundamentals%20-%20AZ-204/az-204.md))
 
 ## Contribute <a name="contribute"></a>
 - To contribute raise a pull request to this repository or open an issue.
