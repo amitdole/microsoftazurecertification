@@ -1,0 +1,64 @@
+﻿@page
+@model PSAZDemo1.NetCoreWebApplication.Pages.LocationModel
+
+@{
+    ViewData["Title"] = "Location page";
+}
+
+<form method="post">
+        <table>
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" id="txtName" name="Name"/></td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><input type="text" id="txtAddress" name="Address"/></td>
+            </tr>
+           @* <select name="Country">
+                <option value="">Select a Country</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="United States">United States</option>
+            </select>*@
+            <select id="locCountry" name="Country">
+            @foreach (string country in ViewData["CountriesList"] as List<string>)
+            {
+                <option value="@country">@country</option>
+            }
+            </select>
+            <tr>
+                <td>Phone: </td>
+                <td><input type="text" id="txtTelephone" name="Telephone"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" asp-page-handler="Submit"/></td>
+            </tr>
+        </table>
+        <hr/>
+    </form>
+
+<table border="1" style='border-collapse:collapse'  cellpadding="2" cellspacing="2">
+    <tr style="outline: thin solid">
+        <th style="outline: thin solid">Id</th>
+        <th style="outline: thin solid">Name</th>
+        <th style="outline: thin solid">Address</th>
+        <th style="outline: thin solid">Country</th>
+        <th style="outline: thin solid">Telephone</th>
+    </tr> 
+@if (@Model.Locations != null)
+{
+     @foreach (var location in @Model.Locations)
+    {
+        <tr style="outline: thin solid">
+            <td style="outline: thin solid">@location.Id</td>
+            <td style="outline: thin solid">@location.Name</td>
+            <td style="outline: thin solid">@location.Address</td>
+            <td style="outline: thin solid">@location.Country</td>
+            <td style="outline: thin solid">@location.Telephone</td>
+        </tr>  
+        }
+}
+</table>
+

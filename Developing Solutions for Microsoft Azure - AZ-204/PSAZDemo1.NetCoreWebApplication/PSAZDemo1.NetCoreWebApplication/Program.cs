@@ -1,3 +1,4 @@
+using Microsoft.Azure.Cosmos;
 using Microsoft.EntityFrameworkCore;
 using PSAZDemo1.NetCoreWebApplication.Model;
 
@@ -8,6 +9,9 @@ builder.Services.AddRazorPages();
 
 var connectionString = builder.Configuration.GetConnectionString("AzureDatabase");
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(connectionString), ServiceLifetime.Transient);
+
+var docClient = new CosmosClient(builder.Configuration.GetConnectionString("CosmosDatabase"));
+builder.Services.AddSingleton<CosmosClient>(docClient);
 
 var app = builder.Build();
 
@@ -35,11 +39,11 @@ using (var scope = app.Services.CreateAsyncScope())
     {
         dbContext.Database.EnsureCreated();
     }
-    catch(Exception e)
+    catch (Exception e)
     {
 
     }
-    
+
 }
 
 app.Run();

@@ -1,0 +1,26 @@
+﻿@page
+@model PSAZDemo1.NetCoreWebApplication.Pages.MediaModel
+
+@{
+    ViewData["Title"] = "Media page";
+}
+
+<h2>Images</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>File Name: </td>
+            <td><input type="text" id="Name" name="Name"/></td>
+        </tr>
+        <tr>
+            <td>Select File: </td>
+            <td> <input type="file" asp-for="ImageFile" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit" asp-page-handler="Submit"/></td>
+        </tr>
+    </table>
+    <hr/>
+</form>
