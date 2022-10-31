@@ -3,22 +3,19 @@ using DemoApplication2.Models;
 
 namespace DemoApplication2.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
-        private static string db_source = "azuredevpractice.database.windows.net";
-        private static string db_user = "azuredevpractice";
-        private static string db_password = "azuresqldb@123";
-        private static string db_database = "azuredevpracticeDB";
+        private readonly IConfiguration _config;
+
+        public ProductService(IConfiguration config)
+        {
+            _config = config;
+        }
 
         private SqlConnection GetConnection()
         {
-            var builder = new SqlConnectionStringBuilder();
-            builder.DataSource = db_source;
-            builder.UserID = db_user;
-            builder.Password = db_password;
-            builder.InitialCatalog = db_database;
-
-            return new SqlConnection(builder.ConnectionString);
+            var connectionstring = _config.GetConnectionString("azuredevpractice");
+            return new SqlConnection(connectionstring);
         }
 
         public List<Product> GetProducts()

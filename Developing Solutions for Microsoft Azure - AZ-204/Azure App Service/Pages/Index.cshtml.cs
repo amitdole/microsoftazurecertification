@@ -8,18 +8,18 @@ namespace DemoApplication2.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        private readonly IProductService _productService;
         public List<Product> Products;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ILogger<IndexModel> logger, IProductService productService)
         {
             _logger = logger;
+            _productService = productService;
         }
 
         public void OnGet()
         {
-            var productService = new ProductService();
-
-            Products = productService.GetProducts();
+            Products = _productService.GetProducts();
         }
     }
 }
