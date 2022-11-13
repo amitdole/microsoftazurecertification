@@ -1,5 +1,6 @@
 ﻿using System.Data.SqlClient;
 using DemoApplication2.Models;
+using MySql.Data.MySqlClient;
 
 namespace DemoApplication2.Services
 {
@@ -18,36 +19,50 @@ namespace DemoApplication2.Services
             return new SqlConnection(connectionstring);
         }
 
-        public List<Product> GetProducts()
+        private MySqlConnection GetMySqlConnection()
         {
-            var connection = GetConnection();
+            var connectionstring = "Server=azure400mysql.mysql.database.azure.com; Port=3306; Database=appdb; Uid=MyPSVMApp@azure400mysql; Pwd=mysqlS@123; SslMode=Preferred;";
+            return new MySqlConnection(connectionstring);
+        }
 
-            var products = new List<Product>();
-
-            string query = "SELECT * FROM Products";
-
+        public async Task<List<Product>> GetProducts()
+        {
+            var list = new List<Product>();
+            var statement = "SELECT ID, Name, Quantity FROM Products";
+            var connection = GetMySqlConnection();
             connection.Open();
 
-            var command = new SqlCommand(query, connection);
+            var sqlCommand = new MySqlCommand(statement, connection);
 
-            using (var reader = command.ExecuteReader())
+            using (var reader = sqlCommand.ExecuteReader())
             {
-                while (reader.Read())
+                while(reader.Read())
                 {
                     var product = new Product
                     {
-                        ProductID = reader.GetInt32(0),
-                        ProductName = reader.GetString(1),
-                        Quantity = reader.GetInt32(2),
+                        ID = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+                        Quantity = reader.GetInt32(2)
                     };
 
-                    products.Add(product);
+                    list.Add(product);
                 }
+
+                connection.Clone();
+                return list;
             }
 
-            connection.Close();
 
-            return products;
+            //var functionUrl = "https://azure400functionapp.azurewebsites.net/api/GetProducts?code=VeAUI2MmwdWz6lTv1JbE41AavPnP7k6T-MaWNOUmF3THAzFuqRUhEg==";
+            
+            //using(var client = new HttpClient())
+            //{
+            //    var response = await client.GetAsync(functionUrl);
+
+            //    var content = await response.Content.ReadAsStringAsync();
+
+            //    return JsonSerializer.Deserialize<List<Product>>(content);
+            //}
         }
     }
 }
