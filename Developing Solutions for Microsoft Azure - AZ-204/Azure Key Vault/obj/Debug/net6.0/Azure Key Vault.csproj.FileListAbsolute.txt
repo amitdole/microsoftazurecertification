@@ -1,0 +1,26 @@
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure Key Vault.exe
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure Key Vault.deps.json
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure Key Vault.runtimeconfig.json
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure Key Vault.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure Key Vault.pdb
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Azure.Security.KeyVault.Keys.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.csproj.AssemblyReference.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.AssemblyInfoInputs.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.AssemblyInfo.cs
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.csproj.CoreCompileInputs.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.csproj.CopyComplete
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\refint\Azure Key Vault.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.pdb
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\Azure Key Vault.genruntimeconfig.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Key Vault\obj\Debug\net6.0\ref\Azure Key Vault.dll

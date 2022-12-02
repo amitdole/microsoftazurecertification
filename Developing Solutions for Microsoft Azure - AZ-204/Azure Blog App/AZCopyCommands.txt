@@ -1,0 +1,9 @@
+//Create Container
+
+azcopy make "https://azure400storagegroup.blob.core.windows.net/tmp?sv=2021-06-08&ss=b&srt=c&sp=rwlaciy&se=2022-11-23T14:48:35Z&st=2022-11-23T06:48:35Z&spr=https&sig=H0%2FKZB35zBbGanPThnto54LGYChRg33cTl%2B0cAaDP7E%3D
+//Upload File
+
+azcopy copy DML.sql "https://azure400storagegroup.blob.core.windows.net/tmp/DML.sql?sv=2021-06-08&ss=b&srt=sco&sp=rwdlaciytfx&se=2022-11-23T14:56:44Z&st=2022-11-23T06:56:44Z&spr=https&sig=g0VqUjSDzO8wemNR4f4jNDFYeY%2FXi0TmSlvKiWOVJ2Y%3D
+//Download blob
+
+azcopy  /Source:"https://azure400storagegroup.blob.core.windows.net/tmp/DML.sql?sv=2021-06-08&ss=b&srt=sco&sp=rwdlaciytfx&se=2022-11-23T14:56:44Z&st=2022-11-23T06:56:44Z&spr=https&sig=g0VqUjSDzO8wemNR4f4jNDFYeY%2FXi0TmSlvKiWOVJ2Y%3D /Dest:C:\Users\Amit\Downloads\azcopy_windows_amd64_10.16.2\azcopy_windows_amd64_10.16.2 /SourceKey:key /Pattern:"DML.sql"

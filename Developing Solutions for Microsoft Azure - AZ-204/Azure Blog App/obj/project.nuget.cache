@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "yGUZP9cYLWN5f2U7bR8QzNo8BBhEj35hVvlw/NP6phFCfRUsdjY5Usc1+1LF6AugP1h99SaTo8WPDMO7gnW3NQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amit\\Documents\\GitHub\\microsoftazurecertification\\Developing Solutions for Microsoft Azure - AZ-204\\Azure Blog App\\Azure Blog App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.core\\1.26.0\\azure.core.1.26.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.data.tables\\12.7.1\\azure.data.tables.12.7.1.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.identity\\1.8.0\\azure.identity.1.8.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.storage.blobs\\12.14.1\\azure.storage.blobs.12.14.1.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.storage.common\\12.13.0\\azure.storage.common.12.13.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.identity.client\\4.46.0\\microsoft.identity.client.4.46.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\2.23.0\\microsoft.identity.client.extensions.msal.2.23.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.18.0\\microsoft.identitymodel.abstractions.6.18.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
