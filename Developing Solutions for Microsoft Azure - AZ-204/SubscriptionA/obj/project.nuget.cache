@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "O1/rUn8zRJHKJn5smr0HJA0Bq7twEuYsM8+ejQ24Kd4oofmqFXeeE1I2ZKTR45fjXWZ3xk7+aU55WUpsvZgAAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amit\\Documents\\GitHub\\microsoftazurecertification\\Developing Solutions for Microsoft Azure - AZ-204\\SubscriptionA\\SubscriptionA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.core.amqp\\1.2.0\\azure.core.amqp.1.2.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\azure.messaging.servicebus\\7.11.1\\azure.messaging.servicebus.7.11.1.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.azure.amqp\\2.5.12\\microsoft.azure.amqp.2.5.12.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

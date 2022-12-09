@@ -1,0 +1,23 @@
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure Storage Bus.exe
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure Storage Bus.deps.json
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure Storage Bus.runtimeconfig.json
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure Storage Bus.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure Storage Bus.pdb
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure.Core.Amqp.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Azure.Messaging.ServiceBus.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.csproj.AssemblyReference.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.AssemblyInfoInputs.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.AssemblyInfo.cs
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.csproj.CoreCompileInputs.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.csproj.CopyComplete
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\refint\Azure Storage Bus.dll
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.pdb
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\Azure Storage Bus.genruntimeconfig.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Storage Bus\obj\Debug\net6.0\ref\Azure Storage Bus.dll

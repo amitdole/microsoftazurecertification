@@ -1,0 +1,5 @@
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Service Bus Topics\obj\Debug\net6.0\Producer.csproj.AssemblyReference.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Service Bus Topics\obj\Debug\net6.0\Producer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Service Bus Topics\obj\Debug\net6.0\Producer.AssemblyInfoInputs.cache
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Service Bus Topics\obj\Debug\net6.0\Producer.AssemblyInfo.cs
+C:\Users\Amit\Documents\GitHub\microsoftazurecertification\Developing Solutions for Microsoft Azure - AZ-204\Azure Service Bus Topics\obj\Debug\net6.0\Producer.csproj.CoreCompileInputs.cache
