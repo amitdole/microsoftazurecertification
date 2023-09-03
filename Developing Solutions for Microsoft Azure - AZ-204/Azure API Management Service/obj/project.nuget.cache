@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "fZxMdau/DkMiREIQF3rMzkPAsEB1tamzTW+7l4BxfMp1yatt/ec4GenGK2eohN+l6MKq93shwD5Tbnz565qhFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amit\\Documents\\GitHub\\microsoftazurecertification\\Developing Solutions for Microsoft Azure - AZ-204\\Azure API Management Service\\Azure API Management Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Amit\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

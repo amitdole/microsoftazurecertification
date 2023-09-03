@@ -1,0 +1,21 @@
+set top:3:courses "AZ-104,AZ204,AZ-900"
+
+get top:3:courses
+
+set top:course:rating 4.9
+
+get top:course:rating
+
+set top:course:rating 4.8
+
+get top:course:rating
+
+exists top:course:rating
+
+del top:course:rating
+
+exists top:course:rating
+
+del top:3:courses
+
+lrange user1:cartitems 0 -1

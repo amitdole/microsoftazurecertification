@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {   
+            "name": "CPUAlert",
+            "type": "Microsoft.Insights/metricAlerts",
+            "apiVersion": "2018-03-01",
+            "location": "Global",
+            "properties": {
+                "enabled":true,
+                "severity": 2,
+                "scopes": ["[resourceId('Microsoft.Compute/virtualMachines','appvm')]"],
+                "evaluationFrequency":"PT5M",
+                "windowSize":"PT5M",
+                "criteria":{
+                    "odata.type":"Microsoft.Azure.Monitor.MultipleResourceMultiplemetriccriteria",
+                    "allOf": [
+                        {
+                           "name":"CPU Criteria",
+                            "metricName":"Percenteage CPU",
+                            "dimensions":[],
+                            "operator":"GreaterThanOrEqual",
+                            "threshold":70,
+                            "timeAggregration":"Average"
+
+                        }
+                    ]
+                },
+                "actions": [
+                    {
+                        "actionGroupId": "[resourceId('Microsoft.Insights/ActionGroups','actionGroup1')]"
+                    }
+                ]
+            }
+        }
+    ],
+    "outputs": {}
+}

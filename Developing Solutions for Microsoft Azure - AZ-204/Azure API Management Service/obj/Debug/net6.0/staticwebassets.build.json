@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rRp2olskFpmZiuTSOfxz5NPkwVG2L3aXdZ95Nu/7AgQ=",
+  "Source": "Azure API Management Service",
+  "BasePath": "_content/Azure API Management Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

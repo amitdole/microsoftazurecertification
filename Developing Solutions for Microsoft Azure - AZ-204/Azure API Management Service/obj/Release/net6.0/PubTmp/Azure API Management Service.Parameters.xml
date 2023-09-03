@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="azure400-webapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Amit\\Documents\\GitHub\\microsoftazurecertification\\Developing\ Solutions\ for\ Microsoft\ Azure\ -\ AZ-204\\Azure\ API\ Management\ Service\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

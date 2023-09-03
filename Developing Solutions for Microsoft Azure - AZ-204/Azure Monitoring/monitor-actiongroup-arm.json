@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "functions": [],
+    "variables": {},
+    "resources": [
+        {
+            "name": "actionGroup1",
+            "type": "Microsoft.Insights/actionGroups",
+            "apiVersion": "2021-09-01",
+            "location": "Global",
+            "properties": {
+                "enabled":true,
+                "groupShortname":"actionGroup1",
+                "emailReceivers":[
+                    {
+                        "name":"AdminEmail",
+                        "emailAddress":"test@test.com",
+                        "useCommonAlertSchema": false
+                    }
+                ]
+            }
+        }
+    ],
+    "outputs": {}
+}
